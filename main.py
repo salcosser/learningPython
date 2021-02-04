@@ -27,10 +27,18 @@ def fb():
             print(str(i))
 
 
+def tip(bill, pcnt):
+    tip = bill * (.01 * pcnt)
+    tBill = tip + bill
+    return tBill
+
+
+
 
 def main():
     fb()
-    tip()
+    bill = str(tip(100.0,15))
+    print(bill)
 
 
 

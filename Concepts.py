@@ -17,10 +17,13 @@ print("Oh, I love " inp "!")
 
 
 
-#conditions
+#varable assignment
 this = 5
 that = 4
 
+
+
+#conditions
 if this > that:
     print("This is bigger than that!")
 elif that > this:
@@ -29,16 +32,23 @@ else:
     print("Niether is bigger!")
 
 
+thing = False
+
+if not thing:       #looks like giberish
+    print("Thing is false")
+
+
+
 #loops
 
 for i in range(5):
-    print("Hello #" i)
+    print("Hello #" + i)
 
 
 num = 10
-while num > 6
+while num > 6:
     num-=1
-    print("now num is " num)
+    print("now num is " + num)
 
 #functions
 
